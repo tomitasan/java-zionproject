@@ -24,10 +24,12 @@ package com.jdojo.datetime;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
+import java.time.Month;
 import java.time.LocalDateTime;
 import java.time.ZonedDateTime;
 //adicionado * para puxar todos os meses
 import static java.time.Month.*;
+import java.time.temporal.*;
  
 public class CurrentDateTime {
         public static void main(String[] args) {
@@ -44,8 +46,9 @@ public class CurrentDateTime {
  
                 // Construct a birth date and time from date-time components
                 LocalDate myBirthDate = LocalDate.of(1984,SEPTEMBER, 30);
-                LocalTime myBirthTime = LocalTime.of(7, 30);
+                LocalTime myBirthTime = LocalTime.of(20, 05);
                 System.out.println("My Birth Date: " + myBirthDate);
                 System.out.println("My Birth Time: " + myBirthTime);
+                
         }
 }
