@@ -29,6 +29,7 @@ public class WalkablesTest {
             w[1] = new Duck("Jeff");
             w[2] = new Person("John");
             w[3] = new Cat("Tom");
+            System.out.printf("*%n**%n***%n****%n*****%n");
      
             // Let everyone walk
             Walkables.letThemWalk(w);

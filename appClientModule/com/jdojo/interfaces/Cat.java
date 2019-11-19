@@ -30,5 +30,12 @@ public class Cat implements Walkable {
 
     public void walk() {
             System.out.println(name + " (a cat) is walking.");
+            System.out.println("*");
+            System.out.println("***");
+            System.out.println("*****");
+            System.out.println("****");
+            System.out.println("**");
+            
+            
     }
 }
