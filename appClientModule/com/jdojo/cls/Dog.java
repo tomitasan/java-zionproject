@@ -22,7 +22,7 @@
 
 package com.jdojo.cls;
 
-public class Dog {
+public class Dog extends Canine implements Pet{
     // Constructor #1
     public Dog() {
             System.out.println("A dog is created.");
@@ -31,5 +31,27 @@ public class Dog {
     // Constructor #2
     public Dog(String name) {
             System.out.println("A dog named " + name + " is created.");
+    }
+
+    @Override
+    public void beFriendly()
+    {
+        
+    }
+
+    @Override
+    public void play()
+    {
+        
+    }
+    
+    public void roam()
+    {
+        
+    }
+    
+    public void eat() 
+    {
+        
     }
 }

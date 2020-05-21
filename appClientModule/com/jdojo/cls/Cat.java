@@ -22,7 +22,7 @@
 
 package com.jdojo.cls;
 
-public class Cat {
+public class Cat extends Animal {
     public Cat() {
 //            System.out.println("Meow...");
     }
